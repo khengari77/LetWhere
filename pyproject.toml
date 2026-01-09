@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "A functional language demonstrating PyParsec features."
 readme = "README.md"
 requires-python = ">=3.9"
+license = { file = "LICENSE" }
 dependencies = [
     "pyparsec",
 ]
