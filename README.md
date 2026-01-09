@@ -120,18 +120,18 @@ uv run pytest tests
   <source
     media="(prefers-color-scheme: dark)"
     srcset="
-      https://api.star-history.com/svg?repos=khengari77/PyParsec&type=Date&theme=dark
+      https://api.star-history.com/svg?repos=khengari77/LetWhere&type=Date&theme=dark
     "
   />
   <source
     media="(prefers-color-scheme: light)"
     srcset="
-      https://api.star-history.com/svg?repos=khengari77/PyParsec&type=Date
+      https://api.star-history.com/svg?repos=khengari77/LetWhere&type=Date
     "
   />
   <img
     alt="Star History Chart"
-    src="https://api.star-history.com/svg?repos=khengari77/PyParsec&type=Date"
+    src="https://api.star-history.com/svg?repos=khengari77/LetWhere&type=Date"
   />
 </picture>
 
