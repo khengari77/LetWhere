@@ -1,6 +1,6 @@
 # LetWhere
 
-LetWhere is a Turing-complete, functional programming language designed as a reference implementation for the **PyParsec** library. It demonstrates advanced parsing concepts including recursive grammar, operator precedence, lexical scoping, and automatic currying.
+LetWhere is a Turing-complete, functional programming language designed as a reference implementation for the [**PyParsec**](github.com/khengari77/PyParsec) library. It demonstrates advanced parsing concepts including recursive grammar, operator precedence, lexical scoping, and automatic currying.
 
 ## Features
 
@@ -112,3 +112,30 @@ To run the test suite:
 ```bash
 uv run pytest tests
 ```
+
+
+## Star History
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="
+      https://api.star-history.com/svg?repos=khengari77/PyParsec&type=Date&theme=dark
+    "
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="
+      https://api.star-history.com/svg?repos=khengari77/PyParsec&type=Date
+    "
+  />
+  <img
+    alt="Star History Chart"
+    src="https://api.star-history.com/svg?repos=khengari77/PyParsec&type=Date"
+  />
+</picture>
+
+## LICENSE
+
+MIT License
+
