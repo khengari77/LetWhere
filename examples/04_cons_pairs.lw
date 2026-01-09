@@ -1,0 +1,19 @@
+-- examples/04_cons_pairs.lw
+-- Simulating a Pair (Tuple) using pure functions (Church Encoding).
+
+let make_pair = \x y -> 
+    -- Return a function that takes a 'selector'
+    (\selector -> selector x y);
+
+    first = \p -> 
+        -- Pass a selector that returns the first arg
+        p (\x y -> x);
+
+    second = \p -> 
+        -- Pass a selector that returns the second arg
+        p (\x y -> y)
+in
+    let my_pair = make_pair 10 20 in
+    
+    -- Should calculate 10 + 20 = 30
+    (first my_pair) + (second my_pair)
